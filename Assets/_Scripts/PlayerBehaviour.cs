@@ -16,6 +16,7 @@ public class PlayerBehaviour : MonoBehaviour
 
     public Vector3 velocity;
     public bool isGrounded;
+    public float Health = 100f;
 
     // Start is called before the first frame update
     void Start()
